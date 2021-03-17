@@ -4,4 +4,4 @@ This is the button demo which allows a webpage to communicate with a Java backen
 ## GIF Output
 Here's a gif output of everything working. Take note that when the client reloads the webpage, the server keeps track of the button presses.
 
-![Gif](https://i.imgur.com/kSrDdXg.gifv)
+![Gif](https://i.imgur.com/kSrDdXg.gif)
