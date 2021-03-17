@@ -27,6 +27,10 @@ export default {
     // What I did was use this and the code on the server and then
     // use nginx to proxy port 3000 to port 8080/443 or whatever
 
+    // this.socket = io('http://localhost:3000'); // this is for development use with npm run serve
+    // use this above when running on localhost.
+
+
     this.socket.on('REQUEST_NEW_MANGA', (data) => {
       this.bruh = data.string;
     });
